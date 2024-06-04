@@ -1,8 +1,6 @@
 # UA-BCD
 The official implement of 《Overcome the Uncertainty Challenges in Detecting Building Changes from Remote Sensing Images》
-好的，我会将这五个表格合并在一起，并转换为适用于GitHub README 的Markdown格式。
 
-```markdown
 ## Performance Comparison with Baseline Models
 
 ## LEVIR-CD Dataset
