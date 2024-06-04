@@ -12,7 +12,7 @@ We will release all model codes and large-scale inference frameworks soon.
 
 ## LEVIR-CD Dataset
 
-$\uparrow$ indicates the higher score the better and vice versa. The best score for each metric is marked in **bold**. The second score for each metric is _underlined_.
+$\uparrow$ indicates the higher score the better and vice versa. The best score for each metric is marked in **bold**. 
 
 | Baseline       | IoU $\uparrow$ | F1 $\uparrow$ | Pre $\uparrow$ | Recall $\uparrow$ |
 |----------------|----------------|---------------|----------------|-------------------|
@@ -29,8 +29,6 @@ $\uparrow$ indicates the higher score the better and vice versa. The best score 
 | **UA-BCD**     | **85.99**      | **92.47**     | **93.38**      | **91.57**         |
 
 ## SYSU-CD Dataset
-
-$\uparrow$ indicates the higher score the better and vice versa. The best score for each metric is marked in **bold**. The second score for each metric is _underlined_.
 
 | Baseline       | IoU $\uparrow$ | F1 $\uparrow$ | Pre $\uparrow$ | Recall $\uparrow$ |
 |----------------|----------------|---------------|----------------|-------------------|
