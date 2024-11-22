@@ -1,5 +1,6 @@
 # UA-BCD
 The official implement of 《Overcome the Uncertainty Challenges in Detecting Building Changes from Remote Sensing Images》
+
 We are delighted to inform everyone that our paper has been successfully accepted by **ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS 2024)**.
 
 We will release all model codes and large-scale inference frameworks soon.
