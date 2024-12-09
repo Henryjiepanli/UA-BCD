@@ -3,7 +3,38 @@ The official implement of 《Overcoming the Uncertainty Challenges in Detecting 
 
 We are delighted to inform everyone that our paper has been successfully accepted by **ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS 2024)**.
 
-We will release all model codes and large-scale inference frameworks soon.
+We have released all model codes and large-scale inference frameworks.
+
+## Pretrained Backbones:
+We have provided the pretrained backbones(PVT-v2-b2) 
+
+You can download via Baidu Disk [Link](https://pan.baidu.com/s/16sA3ZejzcItAWa2JE1G6vg?pwd=abmg) Code:abmg 
+
+## Training Instructions
+
+To train the UABCD model, follow this:
+
+Set the hyper parameters for training. For example, run the following command:
+   ```bash
+   python train.py --batchsize 32 --data_name LEIVR
+
+## Testing Instructions
+
+To test the trained UABCD model, follow this:
+
+Run the following command to perform testing:
+   ```bash
+   python test.py --data_name LEVIR --batchsize 32
+
+## Inference Instructions for Large-scale Application
+
+If you want to conduct Large-scale Application, follow this:
+
+```bash
+   python inference.py --uabcd_model uabcd_model_path --eue_model eue_model_path --A_path Pre-change Image path --B_path Post-change Image path --Pos XX --batchsize 64
+
+
+
 ## Large-scale Application
 
 ![2014-2019, Dongxihu Distinct, Wuhan City](2014_2019.png)
