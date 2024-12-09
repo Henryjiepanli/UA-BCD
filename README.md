@@ -73,7 +73,7 @@ Here are examples of large-scale building change detection results:
 
 If you use our work in your research, please cite:
 
-    ```bibtex
+  ```bibtex
     @article{li2025overcoming,
       title={Overcoming the uncertainty challenges in detecting building changes from remote sensing images},
       author={Li, Jiepan and He, Wei and Li, Zhuohong and Guo, Yujun and Zhang, Hongyan},
