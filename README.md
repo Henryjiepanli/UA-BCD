@@ -83,6 +83,3 @@ If you use our work in your research, please cite:
       year={2025},
       publisher={Elsevier}
     }
-
-
-
