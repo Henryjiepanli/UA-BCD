@@ -122,7 +122,7 @@ class UABCD(nn.Module):
         channel = 128
 
         self.backbone = pvt_v2_b2()  
-        path = '/home/henry/COD_Model/pretrained_model/pvt_v2_b2.pth'
+        path = './pretrained_model/pvt_v2_b2.pth'
         save_model = torch.load(path)
         model_dict = self.backbone.state_dict()
         state_dict = {k: v for k, v in save_model.items() if k in model_dict.keys()}
