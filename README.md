@@ -10,19 +10,6 @@ We will release all model codes and large-scale inference frameworks soon.
 
 ![2019-2024, Dongxihu Distinct, Wuhan City](2019_2024.png)
 
-## Citation
-
-```bibtex
-@article{li2025overcoming,
-  title={Overcoming the uncertainty challenges in detecting building changes from remote sensing images},
-  author={Li, Jiepan and He, Wei and Li, Zhuohong and Guo, Yujun and Zhang, Hongyan},
-  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
-  volume={220},
-  pages={1--17},
-  year={2025},
-  publisher={Elsevier}
-}
-
 ## Performance Comparison with Baseline Models
 
 ## LEVIR-CD Dataset
@@ -105,4 +92,18 @@ $\uparrow$ indicates the higher score the better and vice versa. The best score 
 | CGNet          | 75.27          | 85.89         | 88.07          | 83.82             |
 | M-Swin         | 76.12          | 86.22         | 88.17          | 84.35             |
 | BAN            | _78.70_        | _88.11_       | _89.22_        | _87.02_           |
-| **UA-BCD**     | **79.86**      | **88.81**     | **89.66**      | **87.97**        
+| **UA-BCD**     | **79.86**      | **88.81**     | **89.66**      | **87.97** 
+
+
+## Citation
+
+```bibtex
+@article{li2025overcoming,
+  title={Overcoming the uncertainty challenges in detecting building changes from remote sensing images},
+  author={Li, Jiepan and He, Wei and Li, Zhuohong and Guo, Yujun and Zhang, Hongyan},
+  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume={220},
+  pages={1--17},
+  year={2025},
+  publisher={Elsevier}
+}
