@@ -50,7 +50,7 @@ Specify the paths to the pre-change and post-change images, along with the model
 
 Run the inference script:
 
-     ```bash
+   ```bash
      python inference.py --uabcd_model <path_to_uabcd_model> \
                       --eue_model <path_to_eue_model> \
                       --A_path <path_to_pre_change_image> \
