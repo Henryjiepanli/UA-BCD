@@ -31,6 +31,7 @@ To train the UA-BCD model, follow these steps:
 ---
 
 ## 🧪 Testing Instructions
+
 To evaluate the trained UA-BCD model, follow these steps:
 
 Ensure the model is properly trained and paths are set.
@@ -42,6 +43,7 @@ Run the following command:
 ---
 
 ## 🌍 Large-Scale Inference Instructions
+
 For large-scale applications of UA-BCD, use the following steps:
 
 Specify the paths to the pre-change and post-change images, along with the model paths.
@@ -58,6 +60,7 @@ python inference.py --uabcd_model <path_to_uabcd_model> \
 ---
 
 ## 🖼️ Visualizations for Large-Scale Applications
+
 
 Here are examples of large-scale building change detection results:
 
