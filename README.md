@@ -56,7 +56,6 @@ Run the inference script:
                     --A_path <path_to_pre_change_image> \
                     --B_path <path_to_post_change_image> \
                     --Pos XX --batchsize 64
-
 ---
 
 ## 🖼️ Visualizations for Large-Scale Applications
