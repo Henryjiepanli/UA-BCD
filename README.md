@@ -34,9 +34,9 @@ To train the UA-BCD model, follow these steps:
 
 To evaluate the trained UA-BCD model, follow these steps:
 
-Ensure the model is properly trained and paths are set.
+1. Ensure the model is properly trained and paths are set.
+2. Run the following command:
 
-Run the following command:
    ```bash
    python test.py --data_name LEVIR --batchsize 32
 
