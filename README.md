@@ -27,3 +27,42 @@ To train the UA-BCD model, follow these steps:
 
    ```bash
    python train.py --batchsize 32 --data_name LEVIR
+   
+---
+
+## 🧪 Testing Instructions
+To evaluate the trained UA-BCD model, follow these steps:
+
+Ensure the model is properly trained and paths are set.
+
+Run the following command:
+   ```bash
+   python test.py --data_name LEVIR --batchsize 32
+
+---
+
+## 🌍 Large-Scale Inference Instructions
+For large-scale applications of UA-BCD, use the following steps:
+
+Specify the paths to the pre-change and post-change images, along with the model paths.
+
+Run the inference script:
+
+```bash
+python inference.py --uabcd_model <path_to_uabcd_model> \
+                    --eue_model <path_to_eue_model> \
+                    --A_path <path_to_pre_change_image> \
+                    --B_path <path_to_post_change_image> \
+                    --Pos XX --batchsize 64
+
+---
+
+## 🖼️ Visualizations for Large-Scale Applications
+
+Here are examples of large-scale building change detection results:
+
+![2014-2019, Dongxihu Distinct, Wuhan City](2014_2019.png)
+
+![2019-2024, Dongxihu Distinct, Wuhan City](2019_2024.png)
+
+---
