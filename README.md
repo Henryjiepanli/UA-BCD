@@ -69,7 +69,7 @@ Here are examples of large-scale building change detection results:
 
 ---
 
-##📜 Citation
+## 📜 Citation
 
 If you use our work in your research, please cite:
 
