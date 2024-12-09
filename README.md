@@ -50,17 +50,17 @@ Specify the paths to the pre-change and post-change images, along with the model
 
 Run the inference script:
 
-   ```bash
-   python inference.py --uabcd_model <path_to_uabcd_model> \
-                    --eue_model <path_to_eue_model> \
-                    --A_path <path_to_pre_change_image> \
-                    --B_path <path_to_post_change_image> \
-                    --Pos XX --batchsize 64
+     ```bash
+     python inference.py --uabcd_model <path_to_uabcd_model> \
+                      --eue_model <path_to_eue_model> \
+                      --A_path <path_to_pre_change_image> \
+                      --B_path <path_to_post_change_image> \
+                      --Pos XX --batchsize 64
 
 ---
 
-## 🖼️ Visualizations for Large-Scale Applications
 
+## 🖼️ Visualizations for Large-Scale Applications
 
 Here are examples of large-scale building change detection results:
 
