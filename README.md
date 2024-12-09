@@ -10,6 +10,19 @@ We will release all model codes and large-scale inference frameworks soon.
 
 ![2019-2024, Dongxihu Distinct, Wuhan City](2019_2024.png)
 
+## Citation
+
+```bibtex
+@article{li2025overcoming,
+  title={Overcoming the uncertainty challenges in detecting building changes from remote sensing images},
+  author={Li, Jiepan and He, Wei and Li, Zhuohong and Guo, Yujun and Zhang, Hongyan},
+  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume={220},
+  pages={1--17},
+  year={2025},
+  publisher={Elsevier}
+}
+
 ## Performance Comparison with Baseline Models
 
 ## LEVIR-CD Dataset
