@@ -73,16 +73,16 @@ Here are examples of large-scale building change detection results:
 
 If you use our work in your research, please cite:
 
-    ```bibtex
-      @article{li2025overcoming,
-        title={Overcoming the uncertainty challenges in detecting building changes from remote sensing images},
-        author={Li, Jiepan and He, Wei and Li, Zhuohong and Guo, Yujun and Zhang, Hongyan},
-        journal={ISPRS Journal of Photogrammetry and Remote Sensing},
-        volume={220},
-        pages={1--17},
-        year={2025},
-        publisher={Elsevier}
-      }
+  ```bibtex
+    @article{li2025overcoming,
+      title={Overcoming the uncertainty challenges in detecting building changes from remote sensing images},
+      author={Li, Jiepan and He, Wei and Li, Zhuohong and Guo, Yujun and Zhang, Hongyan},
+      journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+      volume={220},
+      pages={1--17},
+      year={2025},
+      publisher={Elsevier}
+    }
   
 ---
 
@@ -90,37 +90,38 @@ If you use our work in your research, please cite:
 
   ## LEVIR-CD Dataset
   
-    $\uparrow$ indicates the higher score the better and vice versa. The best score for each metric is marked in **bold**. 
-    
-    | Baseline       | IoU $\uparrow$ | F1 $\uparrow$ | Pre $\uparrow$ | Recall $\uparrow$ |
-    |----------------|----------------|---------------|----------------|-------------------|
-    | FC-Siam-conc   | 82.24          | 90.25         | 89.67          | 90.84             |
-    | FC-Siam-diff   | 82.24          | 90.26         | 90.40          | 90.11             |
-    | SNUNet         | 82.65          | 90.50         | 90.46          | 90.54             |
-    | BIT            | 82.76          | 90.56         | 90.87          | 90.26             |
-    | ChangeFormer   | 81.25          | 89.65         | 89.70          | 89.61             |
-    | P2V-CD         | 83.67          | 91.11         | 91.01          | _91.21_           |
-    | HANet          | 82.27          | 90.28         | 91.21          | 89.36             |
-    | CGNet          | _85.21_        | _92.01_       | _93.15_        | 90.90             |
-    | M-Swin         | 83.58          | 91.05         | 92.08          | 90.05             |
-    | BAN            | 84.93          | 91.85         | 92.93          | 90.89             |
-    | **UA-BCD**     | **85.99**      | **92.47**     | **93.38**      | **91.57**         |
+  $\uparrow$ indicates the higher score the better and vice versa. The best score for each metric is marked in **bold**. 
   
+  | Baseline       | IoU $\uparrow$ | F1 $\uparrow$ | Pre $\uparrow$ | Recall $\uparrow$ |
+  |----------------|----------------|---------------|----------------|-------------------|
+  | FC-Siam-conc   | 82.24          | 90.25         | 89.67          | 90.84             |
+  | FC-Siam-diff   | 82.24          | 90.26         | 90.40          | 90.11             |
+  | SNUNet         | 82.65          | 90.50         | 90.46          | 90.54             |
+  | BIT            | 82.76          | 90.56         | 90.87          | 90.26             |
+  | ChangeFormer   | 81.25          | 89.65         | 89.70          | 89.61             |
+  | P2V-CD         | 83.67          | 91.11         | 91.01          | _91.21_           |
+  | HANet          | 82.27          | 90.28         | 91.21          | 89.36             |
+  | CGNet          | _85.21_        | _92.01_       | _93.15_        | 90.90             |
+  | M-Swin         | 83.58          | 91.05         | 92.08          | 90.05             |
+  | BAN            | 84.93          | 91.85         | 92.93          | 90.89             |
+  | **UA-BCD**     | **85.99**      | **92.47**     | **93.38**      | **91.57**         |
+
+---  
   ## SYSU-CD Dataset
   
-    | Baseline       | IoU $\uparrow$ | F1 $\uparrow$ | Pre $\uparrow$ | Recall $\uparrow$ |
-    |----------------|----------------|---------------|----------------|-------------------|
-    | FC-Siam-conc   | 66.16          | 79.64         | 83.27          | 76.31             |
-    | FC-Siam-diff   | 66.93          | 80.19         | 79.96          | **80.42**         |
-    | SNUNet         | 64.79          | 78.63         | 80.88          | 76.50             |
-    | BIT            | 65.33          | 79.03         | 78.23          | 79.84             |
-    | ChangeFormer   | 65.24          | 78.97         | 81.21          | 76.84             |
-    | P2V-CD         | 64.35          | 78.31         | 81.93          | 74.99             |
-    | HANet          | 63.14          | 77.41         | 78.71          | 76.14             |
-    | CGNet          | 66.55          | 79.92         | 86.37          | 74.37             |
-    | M-Swin         | 66.44          | 79.90         | 87.46          | 73.55             |
-    | BAN            | _67.35_        | _80.49_       | **88.26**      | 73.97             |
-    | **UA-BCD**     | **71.38**      | **83.30**     | _87.28_        | _79.66_           |
+  | Baseline       | IoU $\uparrow$ | F1 $\uparrow$ | Pre $\uparrow$ | Recall $\uparrow$ |
+  |----------------|----------------|---------------|----------------|-------------------|
+  | FC-Siam-conc   | 66.16          | 79.64         | 83.27          | 76.31             |
+  | FC-Siam-diff   | 66.93          | 80.19         | 79.96          | **80.42**         |
+  | SNUNet         | 64.79          | 78.63         | 80.88          | 76.50             |
+  | BIT            | 65.33          | 79.03         | 78.23          | 79.84             |
+  | ChangeFormer   | 65.24          | 78.97         | 81.21          | 76.84             |
+  | P2V-CD         | 64.35          | 78.31         | 81.93          | 74.99             |
+  | HANet          | 63.14          | 77.41         | 78.71          | 76.14             |
+  | CGNet          | 66.55          | 79.92         | 86.37          | 74.37             |
+  | M-Swin         | 66.44          | 79.90         | 87.46          | 73.55             |
+  | BAN            | _67.35_        | _80.49_       | **88.26**      | 73.97             |
+  | **UA-BCD**     | **71.38**      | **83.30**     | _87.28_        | _79.66_           |
   
   ## Lebedev Dataset
   
