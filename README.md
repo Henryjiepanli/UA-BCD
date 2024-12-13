@@ -1,6 +1,6 @@
 # UA-BCD
 
-The official implementation of **"Overcoming the Uncertainty Challenges in Detecting Building Changes from Remote Sensing Images"**.
+The official implementation of **"Overcoming the Uncertainty Challenges in Detecting Building Changes from Remote Sensing Images"** [Paper Link](https://www.sciencedirect.com/science/article/abs/pii/S092427162400426X).
 
 We are delighted to share that our paper has been successfully accepted by the **ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS 2024)**.
 
