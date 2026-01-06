@@ -2,7 +2,7 @@
 
 The official implementation of **"Overcoming the Uncertainty Challenges in Detecting Building Changes from Remote Sensing Images"** [Paper Link](https://www.sciencedirect.com/science/article/abs/pii/S092427162400426X).
 
-We are delighted to share that our paper has been successfully accepted by the **ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS 2024)**.
+We are delighted to share that our paper has been successfully accepted by the **ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS 2025)**.
 
 This repository contains the full implementation of our model, including training, testing, and a large-scale inference framework.
 
